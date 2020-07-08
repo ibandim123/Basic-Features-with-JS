@@ -1,0 +1,14 @@
+Para validar formulários no estilo MVR( MODELS - VIEWS - ROUTES) Criamos 4 pastas ( geralmente eu as coloco na pasta SRC):
+For validate forms in MVR, create four past :
+
+*Controllers
+*Models
+*Views
+*Routes
+The documents was save in screen, inside her i put another doc call HOME.
+
+1º) First, we create a routes
+2º) After, we create action's in Controllers
+
+  In action login we add a simple rule for the validate if exists values in the " name area" or another area.
+if the camps pass in validate, this datas will save in req.session.user
